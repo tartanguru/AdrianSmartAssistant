@@ -3,6 +3,11 @@ var fs = require('fs');
 //JQuery like DOM parser
 $ = require('cheerio');
 
+// node modules to parse tables
+var tabletojson = require('tabletojson');
+var xray = require('x-ray')();
+var json2csv = require('json2csv');
+
 // get the constants
 var constants = require(__dirname + "/../../constants.js");
 
